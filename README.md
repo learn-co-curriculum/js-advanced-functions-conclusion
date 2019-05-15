@@ -19,17 +19,17 @@ record-oriented programming. While we started by writing functions in a way
 that was familiar, we learned to change our approach and pass an _execution
 context_ when we called the function. We did so _explicitly_ using `call`,
 `apply`, and `bind`. We also saw how JavaScript _implictly_ sets context
-during function invocation. Lastly we saw how the `this` keyword was our
-magic hook for grabbing the context from within the function.
+during function invocation. Lastly, we saw how the `this` keyword was our
+magic hook for grabbing the context from within a function.
 
-Yet life with `this` can be tricky, so we learned how to defend against lost
-context bugs and then stretched ourselves to build our own function-based
+Yet life with `this` can be tricky, so we learned how to defend against lost-context
+bugs and then stretched ourselves to build our own function-based
 framework.
 
 We've come a long way in this module and a thorough celebration is in order.
 Hopefully, you've felt your mind stretch just a bit as you've come to
-understand JavaScripts' love of functions. We hope you've come to love
-functions just a little bit more too! Whatever's next in your study of
+understand JavaScript's love of functions. We hope you've come to love
+functions just a little bit more, too! Whatever's next in your study of
 JavaScript, understanding JavaScript's love of and support for using,
 passing, `call`-ing, `bind`-ing and using `this` is a crucial foundation for
 growing amazing JavaScript programs. Congratulations!
